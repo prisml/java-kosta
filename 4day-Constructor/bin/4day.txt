@@ -2,14 +2,12 @@
   - this keyword
   - review
   - Constructor(생성자)
+  - improt
   - 자바의 데이터 타입
   	1) primitive data type : 정수형, 실수형, 문자형, 논리형
   	2) reference data type (참조형 데이터 타입)
-  - 조건문
-  - 반복문
-  
 ----------------------------------------------------
-- this : 현재 객체(instance)를 가리키는 자바 키워드
+  - this : 현재 객체(instance)를 가리키는 자바 키워드
 	ex) private String name; // instance 변수(variable) 
 		// 지역변수(local variable)이자 매개변수
 		public void setName(String name){
@@ -17,22 +15,22 @@
 			this.name = name;
 		}
 		
-- Constructor(생성자)
-생성자란
-클래스의 3대 구성요소중 하나
-클래스를 이용하여 메모리를 가진 instance
-즉, 객체를 생성할 때 제일 먼저 호출되는 메서드
-
-역할
-인스턴스 변수의 초기화 작업에 주로 사용
-인스턴스 생성 시에 실행되어야 할 작업을 위해서도 사용
-
-특징
-반환값이 없다.
-생성자의 이름은 클래스의 이름과 동일하다.
-필요에 따라 오버로딩
-선언하지 않아도 디폴트로 생성
-new를 이용하여 호출
+  - Constructor(생성자)
+	생성자란
+	클래스의 3대 구성요소중 하나
+	클래스를 이용하여 메모리를 가진 instance
+	즉, 객체를 생성할 때 제일 먼저 호출되는 메서드
+	
+	역할
+	인스턴스 변수의 초기화 작업에 주로 사용
+	인스턴스 생성 시에 실행되어야 할 작업을 위해서도 사용
+	
+	특징
+	반환값이 없다.
+	생성자의 이름은 클래스의 이름과 동일하다.
+	필요에 따라 오버로딩
+	선언하지 않아도 디폴트로 생성
+	new를 이용하여 호출
 	: 객체 생성시 호출되어 실행되는 클래스의 구성요소
 	ex)
 		new Person() ----- call -------> class Person{
@@ -47,3 +45,50 @@ new를 이용하여 호출
 		객체 초기화 작업
 		다시 말하면 객체 생성시점에 필요한 작업을 명시한다
 		ex) 신용카드 발급전에 신용정보 받아서 확인
+
+  - import
+	다른 패키지의 자원(클래스 or 이터페이스..)
+	을 사용하기 위해 선언
+	ex) import step5.MemberVO;
+		import java.util.ArrayList;
+	단축키 ctrl+shift+o
+	
+  ** class 구성요소 **
+	package
+	import
+	class
+		instance variable
+		Constructor
+		method
+		
+
+  - 자바의 데이터 타입
+  	1) primitive data type : 정수형, 실수형, 문자형, 논리형
+  		int age = 18; --> int가 data type
+  		
+  		byte단위		1byte	2byte	4byte	8byte
+  		정수형		byte	short	int		long
+  		실수형						float	double
+  		문자형				char
+  		논리형		boolean
+  		
+  	2) reference data type (참조형 데이터 타입)
+  		참조형 데이터 타입은
+  		기본형을 제외한 모든 데이터 타입을 말한다
+  		일반적으로 클래스명(or 인터페이스)과 동일하다
+  		ex) Person p;
+  			참조형타입 참조변수;
+  		ex2) Person p = new Person();
+  			위 문장을 풀어서 설명하면
+  			Person 참조형 데이터 타입의
+  			p변수 공간에 Person 객체 생성 후
+  			참조값을(or 주소값)을 참조 변수에 할당한다
+  			
+  			
+ ------------------------------------------------------
+**5일차 주요목차**
+  - 연산자
+  - 제어문
+  	1) 조건문
+  	2) 반복문
+  - 변수 범위(instance variable, local variable scope)
