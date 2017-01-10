@@ -1,0 +1,18 @@
+// package는 클래스를 효과적으로 분류하기위해 사용
+// step1 디렉토리 아래에 Person.class가 생성된다
+package step1;
+// class : 객체 생성을 위한 틀
+// 객체 즉 Object는 속성과 기능으로 구성
+public class Person {
+	/* 속성 or 변수 or variable or attribute or field
+	 * String : 데이터 타입 중 문자열 데이터를 저장할 때 사용
+	 * name : 변수이름
+	 */
+	String name;
+	/* 기능 or method or operation
+	 * 
+	 */
+	public void study(){
+		System.out.println("공부하다");
+	}
+}

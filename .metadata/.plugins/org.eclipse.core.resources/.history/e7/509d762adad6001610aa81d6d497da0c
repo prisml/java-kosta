@@ -1,0 +1,7 @@
+package step2;
+
+public class TestThis {
+	public static void main(String[] args) {
+		House h = new House();
+	}
+}
