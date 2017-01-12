@@ -1,0 +1,13 @@
+package step11;
+
+public class TestArray3 {
+	public static void main(String[] args) {
+		// 배열 선언 생성 할당 동시에
+		int sum=0;
+		int[] point={200,300,100,400,600};
+		
+		for(int i=0;i<point.length;i++)
+			sum+=point[i];
+		System.out.println("평균 포인트: " + sum/5);
+	}
+}
