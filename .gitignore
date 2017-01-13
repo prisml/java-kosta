@@ -16,8 +16,8 @@ $RECYCLE.BIN/
 *.snap
 *.dat
 *.lock
-.metadata*
-.recommenders*
+*.metadata*
+*.recommenders*
 
 # Windows shortcuts
 *.lnk
