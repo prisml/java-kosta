@@ -1,8 +1,0 @@
-package step2;
-
-public class Car {
-	public void start(String carName)
-	{
-		System.out.println(carName + " √‚πﬂ");
-	}
-}

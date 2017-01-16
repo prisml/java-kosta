@@ -11,4 +11,14 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="step5.ProductVO"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="step5.Parent"/>
+<fullyQualifiedTypeName name="step6.Person"/>
+<fullyQualifiedTypeName name="step7.Employee"/>
+<fullyQualifiedTypeName name="step8.Animal"/>
+<fullyQualifiedTypeName name="step8.Person"/>
+<fullyQualifiedTypeName name="step8.Student"/>
+<fullyQualifiedTypeName name="step9.Employee"/>
+<fullyQualifiedTypeName name="step10.Animal"/>
+<fullyQualifiedTypeName name="step10.Student"/>
+<fullyQualifiedTypeName name="step11.Animal"/>
 </qualifiedTypeNameHistroy>
