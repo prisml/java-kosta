@@ -13,7 +13,6 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="step5.Parent"/>
 <fullyQualifiedTypeName name="step6.Person"/>
-<fullyQualifiedTypeName name="step7.Employee"/>
 <fullyQualifiedTypeName name="step8.Animal"/>
 <fullyQualifiedTypeName name="step8.Person"/>
 <fullyQualifiedTypeName name="step8.Student"/>
@@ -21,4 +20,11 @@
 <fullyQualifiedTypeName name="step10.Animal"/>
 <fullyQualifiedTypeName name="step10.Student"/>
 <fullyQualifiedTypeName name="step11.Animal"/>
+<fullyQualifiedTypeName name="step2.Engineer"/>
+<fullyQualifiedTypeName name="step2.Employee"/>
+<fullyQualifiedTypeName name="step3.AnimalService"/>
+<fullyQualifiedTypeName name="step3.Animal"/>
+<fullyQualifiedTypeName name="step7.Employee"/>
+<fullyQualifiedTypeName name="step7.Engineer"/>
+<fullyQualifiedTypeName name="step8.Company"/>
 </qualifiedTypeNameHistroy>
