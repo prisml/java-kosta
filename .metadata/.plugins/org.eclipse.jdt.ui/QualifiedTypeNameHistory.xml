@@ -37,4 +37,5 @@
 <fullyQualifiedTypeName name="step2.SuperMan"/>
 <fullyQualifiedTypeName name="step4.Player"/>
 <fullyQualifiedTypeName name="step4.CDPlayer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
