@@ -38,4 +38,12 @@
 <fullyQualifiedTypeName name="step4.Player"/>
 <fullyQualifiedTypeName name="step4.CDPlayer"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="step2.ProductVO"/>
+<fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingDeque"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
