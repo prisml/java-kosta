@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="step2.Car"/>
-<fullyQualifiedTypeName name="step8.SmartPhone"/>
-<fullyQualifiedTypeName name="step9.LoopService"/>
-<fullyQualifiedTypeName name="step2.TestVariableScope"/>
-<fullyQualifiedTypeName name="step6.SmartPhone"/>
 <fullyQualifiedTypeName name="step8.SweetRoom"/>
 <fullyQualifiedTypeName name="step10.ObjectService"/>
 <fullyQualifiedTypeName name="step9.Friend"/>
@@ -26,7 +21,6 @@
 <fullyQualifiedTypeName name="step7.Engineer"/>
 <fullyQualifiedTypeName name="step8.Company"/>
 <fullyQualifiedTypeName name="step1.Person"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="step7.PizzaService"/>
 <fullyQualifiedTypeName name="step7.SeaFoodPizzaService"/>
 <fullyQualifiedTypeName name="step7.PotatoPizzaService"/>
@@ -51,12 +45,19 @@
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
 <fullyQualifiedTypeName name="step3.Animal"/>
-<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="step5.MemberDAO"/>
 <fullyQualifiedTypeName name="step5.MemberService"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="step7.MyException"/>
 <fullyQualifiedTypeName name="step7.AdultMovieService"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="step8.NickNameException"/>
+<fullyQualifiedTypeName name="step1.InvalidMoneyException"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="exception.PersonNotFoundException"/>
+<fullyQualifiedTypeName name="school.SchoolService"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="school.Student"/>
+<fullyQualifiedTypeName name="exception.DuplicateTelException"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
