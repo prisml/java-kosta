@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="step9.Friend"/>
-<fullyQualifiedTypeName name="step5.ProductVO"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="step5.Parent"/>
 <fullyQualifiedTypeName name="step6.Person"/>
 <fullyQualifiedTypeName name="step8.Animal"/>
 <fullyQualifiedTypeName name="step8.Person"/>
@@ -28,7 +24,6 @@
 <fullyQualifiedTypeName name="step2.SuperMan"/>
 <fullyQualifiedTypeName name="step4.Player"/>
 <fullyQualifiedTypeName name="step4.CDPlayer"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="step2.ProductVO"/>
@@ -52,7 +47,6 @@
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="exception.PersonNotFoundException"/>
 <fullyQualifiedTypeName name="school.SchoolService"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="school.Student"/>
 <fullyQualifiedTypeName name="exception.DuplicateTelException"/>
@@ -60,4 +54,10 @@
 <fullyQualifiedTypeName name="step1.Animal"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,17 @@
+**18일차**
+IO : 입력INPUT과 출력OUTPUT
+Stream : 흐름(데이터의 연속적인 흐름)
+		줄기
+		입출력을 위한 클래스들을 통칭
+		(입력 스트립, 출력 스트립)
+		
+Java IO의 4가지 주요 추상클래스:
+		1byte			2byte
+입력		InputStream		Reader
+출력		OutputStream	Writer
+
+Node Stream(기본스트림) 계열 : 직접 장치에 연걸되는 스트림. 필수적
+Processing Stream(부가 스트림) 계열: 다른 스트림에 연결되어 기능을 제공하기
+
+flush()
+close()
