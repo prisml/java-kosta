@@ -1,0 +1,4 @@
+해야한다. 즉 직렬화될 대상 객체가 java.io.Serializable interface의
+계층구조 하위로 편입될 때 객체 직렬화가 ㄷ지원된다는 것을 의미한다.
+
+transient : 객체 직렬화

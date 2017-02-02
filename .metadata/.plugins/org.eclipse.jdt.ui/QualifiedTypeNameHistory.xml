@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="step6.Person"/>
-<fullyQualifiedTypeName name="step8.Animal"/>
-<fullyQualifiedTypeName name="step8.Person"/>
-<fullyQualifiedTypeName name="step8.Student"/>
-<fullyQualifiedTypeName name="step9.Employee"/>
-<fullyQualifiedTypeName name="step10.Animal"/>
-<fullyQualifiedTypeName name="step10.Student"/>
-<fullyQualifiedTypeName name="step11.Animal"/>
-<fullyQualifiedTypeName name="step2.Engineer"/>
-<fullyQualifiedTypeName name="step2.Employee"/>
 <fullyQualifiedTypeName name="step3.AnimalService"/>
 <fullyQualifiedTypeName name="step7.Employee"/>
 <fullyQualifiedTypeName name="step7.Engineer"/>
@@ -55,9 +45,19 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="step5.MemberVo"/>
+<fullyQualifiedTypeName name="step6.SerialListService"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="service.SerialService"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
 </qualifiedTypeNameHistroy>
