@@ -1,0 +1,17 @@
+**20일차**
+-Thread 개념
+-Thread 생성
+-Thread 실행 흐름 및 제어
+
+----------------------------------
+-Thread 개념
+	Process : 현재 실행 중인 프로그램
+	Thread : Process 내의 세부적 실행 단위
+			참고) 사전적인 의미 : 실.. 여러개의 실이 모여 옷감이 만들어진다
+	Multi-Threading : 다수의 스레드가 동시에 실행
+						(ex - 동영상플레이어 실행(프로세스))
+							영상스레드 + 음향스레드 + 자막스레드
+							
+- Thread 생성
+	1) extends Thread
+	2) implement Runnable

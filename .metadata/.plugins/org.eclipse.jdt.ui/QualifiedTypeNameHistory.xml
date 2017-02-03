@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="step3.AnimalService"/>
-<fullyQualifiedTypeName name="step7.Employee"/>
-<fullyQualifiedTypeName name="step7.Engineer"/>
-<fullyQualifiedTypeName name="step8.Company"/>
-<fullyQualifiedTypeName name="step1.Person"/>
-<fullyQualifiedTypeName name="step7.PizzaService"/>
-<fullyQualifiedTypeName name="step7.SeaFoodPizzaService"/>
-<fullyQualifiedTypeName name="step7.PotatoPizzaService"/>
-<fullyQualifiedTypeName name="step2.Figher"/>
-<fullyQualifiedTypeName name="step2.Helicopter"/>
 <fullyQualifiedTypeName name="step2.Eagle"/>
 <fullyQualifiedTypeName name="step2.SuperMan"/>
 <fullyQualifiedTypeName name="step4.Player"/>
@@ -43,7 +33,6 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="step1.Animal"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
@@ -60,4 +49,15 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="service.SerialService"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="step2.Worker"/>
+<fullyQualifiedTypeName name="step3.Worker"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="step4.InputWorker"/>
+<fullyQualifiedTypeName name="step4.OutputWorker"/>
+<fullyQualifiedTypeName name="step5.ServerWorker"/>
+<fullyQualifiedTypeName name="step6.Worker"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="step7.CommonInfo"/>
+<fullyQualifiedTypeName name="java.io.File"/>
 </qualifiedTypeNameHistroy>
