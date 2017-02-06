@@ -1,0 +1,27 @@
+**21day**
+- Network
+
+java 기반의 TCP/IP 프로토콜 기반 네트워크 프로그램
+주요 패키지 : java.net.*;
+주요 클래스 : java.net.ServerSocket
+			 java.net.Socket
+			 
+Protocol : 통신규약(약속)
+
+TCP : Transmission Control Protocol
+		전송 제어 프로토콜
+		데이터 전달의 신뢰성이 높은 전송 제어 규약
+		
+IP : Internet Protocol
+	호스트 주소 지정
+	ex) DOS 콘솔에서 IPCONFIG를 입력하면 ip를 확인
+		자신의 컴퓨터 IP : 127.0.0.1, 192.168.0.69
+		강사 IP : 192.168.0.72
+		친구 IP : 192.168.0.46
+		참고) DNS - Domain Name System
+				DNS로 IP를 연결해서 클라이언트에게 서비스한다
+Port: 가상의 연결단위, 서비스 입구(번호)
+		ex) http://192.168.0.69:5432
+		포트는 일반적으로 1~65535까지 사용가능학소
+		1024포트까지 사용하는 경우가 많으므로
+		신규 서비스일때는 그 이후 포트를 지정하는 것이 바람직하다
