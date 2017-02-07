@@ -21,34 +21,39 @@ import common.IP;
 public class EchoClient {
 	public void go() throws UnknownHostException, IOException {
 		Socket socket = null;
+		Scanner scan = null;
+		PrintWriter pw = null;
 		BufferedReader br = null;
-		Scanner scan = new Scanner(System.in);
+
 		try {
-			// ip와 port를 명시해 소켓을 생성한다
+			socket = new Socket(IP.INST, 5432);
+			System.out.println("**클라이언트 창**");
+			scan = new Scanner(System.in);
+			pw = new PrintWriter(socket.getOutputStream(), true);
+			br = new BufferedReader(new InputStreamReader(socket.getInputStream())); 
 			while (true) {
-				socket = new Socket(IP.MY_IP, 5432);
-				System.out.print("msg : ");
-				String msg = scan.nextLine();
-				if (msg.equals("종료")){
-					System.out.println("프로그램 종료");
-					PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);
-					pw.println(msg);
+				String message = scan.nextLine();
+				pw.println(message);
+				if (message.equals("종료")) {
+					System.out.println("클라이언트 종료");
 					break;
 				}
-				
-				PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);
-				pw.println(msg);
-				
-				br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-				System.out.println(br.readLine());
-				
-				pw.close();
-				socket.close();
+				message = br.readLine();
+				System.out.println(message);
 			}
+
 		} finally {
-			if(br != null)
+			if (br != null) {
 				br.close();
-			scan.close();
+			}
+			if (pw != null) {
+				pw.close();
+			}
+			if (scan != null) {
+				scan.close();
+			}
+			if (socket != null)
+				socket.close();
 		}
 	}
 
