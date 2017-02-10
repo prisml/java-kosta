@@ -15,3 +15,13 @@
 - Thread 생성
 	1) extends Thread
 	2) implement Runnable
+	
+- synchronized(동기화처리)
+	자바 스레드는 데이터를 공유할 수 있다 -> 서버 자원을 절약
+	다시말하면 여러 스레드는 하나의 자원을 공유해서 사용할 수 있다
+	공유된 자원(데이터)을 여러 스레드가 조작할 경우 발생할 수 있는
+	문제에 대비하기 위해 synchronized(동기화)처리를 통해
+	특정부분은 단일 스레드 실행환경으로 만든다
+	
+	ex) 화장실(열쇠)
+		Database Connection Pool

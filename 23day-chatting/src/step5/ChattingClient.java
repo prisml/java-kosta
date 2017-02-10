@@ -37,7 +37,6 @@ public class ChattingClient {
 			pw = new PrintWriter(socket.getOutputStream(), true);
 			while(true){
 				Thread.sleep(100);
-				System.out.print("msg : ");
 				msg = scan.nextLine();
 				pw.println(msg);
 				if(msg.equals("Á¾·á"))
